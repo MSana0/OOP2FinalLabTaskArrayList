@@ -11,10 +11,10 @@ namespace OOP2FinalLabTask
         public string Name { get; set; }
         public string Id { get; set; }
         public Faculty() { }
-        public Faculty(string Name, string Id)
+        public Faculty(string name, string id)
         {
-            Name = Name;
-            Id = Id;
+            Name = name;
+            Id = id;
         }
         public void Show()
         {

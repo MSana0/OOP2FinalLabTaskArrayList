@@ -31,11 +31,6 @@ namespace OOP2FinalLabTask
                 this.faculties.Add(f);
             }
         }
-        /*public void Show()
-        {
-            Console.WriteLine("Name: " + Name);
-            Console.WriteLine("Id: " + Id);
-        }*/
         public void ShowAll()
         {
             foreach(Faculty f in faculties)
